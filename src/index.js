@@ -3,11 +3,12 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import ToDoApp from './components/TodoApp';
 import reportWebVitals from './reportWebVitals';
+import Swiper from './components/Swiper';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <ToDoApp />
+    <Swiper />
   </React.StrictMode>
 );
 
